@@ -26,11 +26,12 @@ class Home extends Component {
   getHp = (hp) => {
     if (hp>100){
       return 100
-    } else {
+    } else if (hp<=100) {
       return hp
+    } else {
+      return 0
     }
   }
-
 
   render() {
     const allCards = this.state.allCards
