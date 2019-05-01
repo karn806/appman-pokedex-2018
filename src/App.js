@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
+import Home from './components/Home'
 
 const COLORS = {
   Psychic: "#f8a5c2",
@@ -19,6 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Home />
       </div>
     )
   }
